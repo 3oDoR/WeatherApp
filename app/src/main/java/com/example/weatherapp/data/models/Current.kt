@@ -54,7 +54,7 @@ data class Current(
     @SerializedName("wind_dir")
     val wind_dir: String? = null,
     @SerializedName("wind_kph")
-    val wind_kph: Int? = null,
+    val wind_kph: Double? = null,
     @SerializedName("wind_mph")
     val wind_mph: Double? = null,
     @SerializedName("windchill_c")
